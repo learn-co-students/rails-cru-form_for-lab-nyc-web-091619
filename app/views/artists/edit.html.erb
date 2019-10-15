@@ -1,0 +1,8 @@
+<H1>Edt artist name</H1>
+
+<%= form_for @artist do |f| %>
+    <%= f.label "Artist Name" %>
+    <%= f.text_field :name %> <br><br>
+    Bio: <%= f.text_area :bio %>
+    <%= f.submit %>
+<% end %>
